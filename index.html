@@ -17,7 +17,7 @@
       <nav>
         <div class="title">
           <img src="resources/images/ic-logo.svg" alt="Company Logo">
-          <span><span class="colmar">Colmar</span>Academy</span>
+          <span><strong id="colmar">Colmar</strong>Academy</span>
         </div>
         <div class="menu">
           <span>On campus</span>
@@ -26,24 +26,28 @@
           <span>Sign in</span>
         </div>
       </nav>
-
-      <!-- Banner -->
-      <container id="banner">
-        <div class="image-container-large">
-          <img src="resources/images/banner.jpg" alt="Students Studying">
-        </div>
-        <div class="banner-content">
-          <h1>Learn Something New Everyday</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <div class="sign-in">
-            <span>Sign-In</span>
-          </div>
-        </div>
-      </container>
     </header>
 
     <!-- Main Content -->
     <main>
+
+      <!-- Banner -->
+      <container id="banner" class="flex">
+        <div class="image-container-large">
+          <img src="resources/images/banner.jpg" alt="Students Studying">
+        </div>
+        <div id="banner-content" class="flex">
+          <div class="header">
+            <h1>Learn Something New Everyday</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <div id="sign-in">
+            <span>Sign-In</span>
+          </div>
+        </div>
+      </container>
+
+      <!-- Information -->
       <container id="information">
         <div class="image-container-large">
           <img src="resources/images/information-main.jpg" alt="Student reading textbook">

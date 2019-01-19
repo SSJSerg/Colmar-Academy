@@ -1,0 +1,71 @@
+/* Universal */
+body {
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+  color: black;
+}
+
+.flex {
+  display: flex;
+}
+
+
+
+/* Header */
+
+nav {
+  display: flex;
+  width: 100%;
+  background-color: white;
+  align-items: center;
+  height: 64px;
+}
+
+#colmar {
+  font-weight: 700;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+}
+
+.menu {
+  text-align: right;
+  flex-grow: 1;
+  padding-right: 24px;
+}
+
+.menu span {
+  padding-left: 16px;
+}
+
+/* Banner */
+#banner {
+  background-color: dimgray;
+}
+
+.image-container-large img {
+  width: 100%;
+}
+
+.image-container-large {
+  max-width: 60%;
+  margin: 32px 24px;
+}
+
+#banner-content {
+  flex-direction: column;
+  justify-content: center;
+}
+
+#sign-in
+{
+  background-color: aqua;
+  padding: 8px 0;
+  width: 60%;
+}
+
+#sign-in span {
+}
