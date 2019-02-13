@@ -31,20 +31,12 @@ span, p {
   background-color: #AED9DA;
 }
 
-/* font {
-font-family: 'Oswald', sans-serif;
-400 500 700
-
-font-family: 'Lato', sans-serif;
-
-400 400i
-} */
 .flex {
   display: flex;
 }
 
-.banner-text-padding {
-  padding-bottom: 3.75rem;
+.position {
+  position: fixed;
 }
 
 /* Image Containers */
@@ -102,6 +94,8 @@ nav {
 }
 
 /* Banner */
+#banner {}
+
 #banner-content {
   flex-direction: column;
   justify-content: center;
@@ -122,6 +116,10 @@ nav {
 #banner-support {
   word-break: break-word;
   font-size: 1.5rem;
+}
+
+.banner-text-padding {
+  padding-bottom: 3.75rem;
 }
 
 /* Information */
@@ -202,6 +200,10 @@ aside {
   font-family: Lato, sans-serif;
   font-style: italic;
   font-weight: 400;
+}
+
+.course-description {
+  line-height: 1.35rem;
 }
 
 /* Thesis Content */
