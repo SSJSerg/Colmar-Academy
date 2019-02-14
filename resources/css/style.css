@@ -219,13 +219,6 @@ aside {
 
 /* Thesis Content */
 
-#thesis {
-  background-color: #AED9DA;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
-
 #thesis h2 {
   margin: 1rem 0;
   text-align: center;
