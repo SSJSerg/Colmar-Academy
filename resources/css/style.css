@@ -2,7 +2,6 @@
 body {
   font-size: 16px;
   color: black;
-  background-color: #EDFAFD;
 }
 
 h1, h2, h3, h4 {
@@ -35,8 +34,10 @@ span, p {
   display: flex;
 }
 
-.position {
-  position: fixed;
+container {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 4rem;
 }
 
 /* Image Containers */
@@ -64,6 +65,7 @@ nav {
   width: 100%;
   align-items: center;
   height: 4rem;
+  position: fixed;
 }
 
 #colmar {
@@ -94,7 +96,9 @@ nav {
 }
 
 /* Banner */
-#banner {}
+#banner {
+  top: 4rem;
+}
 
 #banner-content {
   flex-direction: column;
@@ -172,6 +176,8 @@ aside {
 
 #learn {
   flex-flow: column;
+  overflow-y: scroll;
+  top: 4rem;
 }
 
 .program-container {
@@ -207,6 +213,13 @@ aside {
 }
 
 /* Thesis Content */
+#thesis {
+  background-color: #AED9DA;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
 #thesis h2 {
   margin: 1rem 0;
   text-align: center;
