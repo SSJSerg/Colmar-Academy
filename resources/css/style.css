@@ -183,8 +183,6 @@ aside {
 
 #learn {
   flex-flow: column;
-  overflow-y: scroll;
-  top: 4rem;
 }
 
 .program-container {
