@@ -218,6 +218,9 @@ aside {
 }
 
 /* Thesis Content */
+#thesis {
+  flex-direction: column;
+}
 
 #thesis h2 {
   margin: 1rem 0;
