@@ -3,49 +3,68 @@ body {
   font-size: 16px;
   color: black;
 }
+
 h1, h2, h3, h4 {
   font-family: Oswald, sans-serif;
 }
+
 h1 {
   font-size: 3.5rem;
 }
+
 h3 {
   font-weight: 500;
   font-size: 1.5rem;
 }
+
 h2, h4 {
   font-size: 2.85rem;
 }
+
 span, p {
   font-family: Lato, sans-serif;
   font-size: 1.05rem
 }
+
 .background-color {
   background-color: #AED9DA;
 }
+
+.accent-color {
+  background-color: #2A93D5;
+}
+
 .flex {
   display: flex;
 }
-.position {
+
+container {
   position: sticky;
   top: 4rem;
 }
+
 /* Image Containers */
+
 .image-container-large img {
   width: 100%;
 }
+
 .image-container-large {
   max-width: 60%;
   margin: 2rem 1.5rem;
 }
+
 .image-container-small img {
   width: 100%;
 }
+
 .image-container-small {
   max-width: 35%;
   height: auto;
 }
+
 /* Header */
+
 nav {
   display: flex;
   width: 100%;
@@ -53,9 +72,11 @@ nav {
   height: 4rem;
   position: fixed;
 }
+
 #colmar {
   font-weight: 700;
 }
+
 .title {
   display: flex;
   align-items: center;
@@ -63,26 +84,33 @@ nav {
   text-transform: uppercase;
   font-size: 1.25rem;
 }
+
 .menu {
   text-align: right;
   flex-grow: 1;
   padding-right: 1.5rem;
   font-size: 1.25rem;
 }
+
 .title span {
   color: #135589;
 }
+
 .menu span {
   padding-left: 1rem;
 }
+
 /* Banner */
+
 #banner {
   top: 4rem;
 }
+
 #banner-content {
   flex-direction: column;
   justify-content: center;
 }
+
 #start-here {
   background-color: #2A93D5;
   padding: .5rem 0;
@@ -90,138 +118,175 @@ nav {
   text-align: center;
   font-size: 1.75rem;
 }
+
 #banner-content {
   width: 40%;
 }
+
 #banner-support {
   word-break: break-word;
   font-size: 1.5rem;
 }
+
 .banner-text-padding {
   padding-bottom: 3.75rem;
 }
+
 /* Information */
+
 .support p {
   margin-top: 1.5rem;
   margin-bottom: 2rem;
   line-height: 1.35rem;
 }
+
 aside {
   width: 40%;
 }
+
 #border {
   border-left: .5px solid lightgray;
 }
+
 #orientation {
   margin-top: 1rem;
 }
+
 .side {
   padding: 1rem;
   align-items: center;
 }
+
 #side-content {
   padding-left: 1rem;
   line-height: 1.5rem;
 }
+
 .side h3 {
   padding-bottom: .5rem;
 }
+
 .heading-support, .read {
   font-size: 1.15rem;
   padding-bottom: .5rem;
 }
+
 .read {
   color: blue;
 }
+
 /* Program Path Section */
 #learn h2 {
   margin: 2rem 0;
   text-align: center;
 }
+
 #learn {
   flex-flow: column;
   overflow-y: scroll;
   top: 4rem;
 }
+
 .program-container {
   flex-flow: row wrap;
   justify-content: center;
   margin-bottom: 2rem;
 }
+
 .program img {
   width: 100%;
   height: auto;
 }
+
 .program {
   background-color: #EDFAFD;
   width: 25%;
   margin: .5rem;
 }
+
 .program-text {
   padding: 1rem;
 }
+
 .course {
   padding: .5rem 0;
   font-family: Lato, sans-serif;
   font-style: italic;
   font-weight: 400;
 }
+
 .course-description {
   line-height: 1.35rem;
 }
+
 /* Thesis Content */
+
 #thesis {
   background-color: #AED9DA;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
+
 #thesis h2 {
   margin: 1rem 0;
   text-align: center;
 }
+
 .video-container {
   width: 60%;
   padding: 0 1.5rem;
 }
+
 .video-container h4 {
   padding-top: 1.5rem;
   padding-bottom: .5rem;
   margin: 0;
 }
+
 .video-container p {
   padding-bottom: 2rem;
   line-height: 1.35rem;
 }
+
 .thesis-side img {
   width: 100%;
 }
+
 .thesis-image {
   width: 35%;
   padding: 1rem;
 }
+
 .thesis-side {
   align-items: center;
 }
+
 .side-text {
   width: 30%;
   flex-grow: 1;
 }
+
 .side-text h3 {
   padding-bottom: 1rem;
   line-height: 1.5rem;
 }
+
 .side-text p {
   line-height: 1.25rem;
 }
+
 /* Footer */
+
 footer {
   border-top: 1px solid grey;
 }
+
 footer span {
   font-size: .75rem;
   margin: 1rem 1.5rem 2rem 1.5rem;
 }
+
 #term {
   text-align: right;
   flex-grow: 1
