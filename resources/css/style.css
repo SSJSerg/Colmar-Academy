@@ -38,7 +38,7 @@ span, p {
   display: flex;
 }
 
-container {
+.position {
   position: sticky;
   top: 4rem;
 }
