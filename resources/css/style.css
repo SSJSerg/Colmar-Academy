@@ -76,10 +76,6 @@ nav {
   border-bottom: 2px solid black;
 }
 
-#colmar {
-  font-weight: 700;
-}
-
 .title {
   display: flex;
   align-items: center;
@@ -96,6 +92,16 @@ nav {
 }
 
 .title span {
+  color: #2A93D5;
+  font-size: 1.5rem;
+  text-shadow: 1px 2px 1px #135589;
+}
+
+#colmar {
+  font-weight: 700;
+}
+
+#academy {
   color: #135589;
 }
 
@@ -109,7 +115,6 @@ nav {
   transition: background-color 150ms ease-in 50ms;
 }
 
-
 /* Banner */
 
 #banner {
@@ -119,14 +124,11 @@ nav {
 #banner-content {
   flex-direction: column;
   justify-content: center;
+  width: 40%;
 }
 
 #banner-heading {
   line-height: 3.75rem;
-}
-
-#banner-content {
-  width: 40%;
 }
 
 #banner-support {
@@ -139,25 +141,31 @@ nav {
 }
 
 #start-here {
-  background-color: #2A93D5;
-  padding: .5rem 0;
-  width: 75%;
-  text-align: center;
-  font-size: 1.75rem;
+  border: 0;
+     line-height: 2.5;
+     padding: 0 20px;
+     font-size: 1rem;
+     text-align: center;
+     background-color: #2A93D5;
+     border-radius: 10px;
+     width: 35%;
+     align-items: center;
 }
 
 #start-here:hover {
   box-shadow: inset 2px 2px 2px #135589;
   transition: box-shadow 50ms linear 50ms;
+  text-shadow: 1px 1px 1px #135589;
+  transition: text-shadow 20ms linear 20ms;
 }
-
-/* Information */
 
 .support p {
   margin-top: 1.5rem;
   margin-bottom: 2rem;
   line-height: 1.35rem;
 }
+
+/* Information */
 
 aside {
   width: 40%;
@@ -167,13 +175,13 @@ aside {
   border-left: .5px solid #AED9DA;
 }
 
-#orientation {
-  margin-top: 1rem;
-}
-
 .side {
   padding: 1rem;
   align-items: center;
+}
+
+#orientation {
+  margin-top: 1rem;
 }
 
 #side-content {
@@ -199,15 +207,15 @@ aside {
   transition: text-decoration 150ms linear 750ms;
 }
 
-
 /* Program Path Section */
-#learn h2 {
-  margin: 2rem 0;
-  text-align: center;
-}
 
 #learn {
   flex-flow: column;
+}
+
+#learn h2 {
+  margin: 2rem 0;
+  text-align: center;
 }
 
 .program-container {
@@ -216,15 +224,15 @@ aside {
   margin: 0 4.5rem 2rem 4.5rem;
 }
 
-.program img {
-  width: 100%;
-}
-
 .program {
   background-color: #EDFAFD;
   width: 25%;
   margin: .5rem;
   flex-grow: 1;
+}
+
+.program img {
+  width: 100%;
 }
 
 .program-text {
