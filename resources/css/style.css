@@ -6,7 +6,6 @@ body {
 
 main {
   background-color: #EDFAFD;
-  padding-top: 4rem;
 }
 
 h1, h2, h3, h4 {
@@ -73,6 +72,7 @@ nav {
   position: fixed;
   z-index: 1;
   background-color: white;
+  border-bottom: 2px solid black;
 }
 
 .title {
@@ -134,7 +134,7 @@ nav {
 /* Banner */
 
 #banner {
-  top: 4rem;
+  padding-top: 4rem;
 }
 
 #banner-content {
@@ -175,13 +175,41 @@ nav {
   transition: text-shadow 20ms linear 20ms;
 }
 
+@media only screen and (max-width:480px) {
+  #banner {
+    flex-direction: column;
+  }
+
+  #learn-picture {
+    margin: 0;
+    width: 100%;
+  }
+
+  #banner-content {
+    padding: 0 0 0 1rem;
+    width: 100%;
+  }
+
+  #banner-heading {
+    padding: 2rem 0;
+  }
+
+  #banner-support {
+    padding-bottom: 1.5rem;
+  }
+
+  #start-here {
+    margin-bottom: 2rem;
+  }
+}
+
+/* Information */
+
 .support p {
   margin-top: 1.5rem;
   margin-bottom: 2rem;
   line-height: 1.35rem;
 }
-
-/* Information */
 
 aside {
   width: 40%;
@@ -225,11 +253,11 @@ aside {
 
 /* Program Path Section */
 
-#learn {
+#program-content {
   flex-flow: column;
 }
 
-#learn h2 {
+#program-content h2 {
   margin: 2rem 0;
   text-align: center;
 }
