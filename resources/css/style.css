@@ -55,11 +55,11 @@ span, p {
 
 .image-container-small img {
   width: 100%;
+  height: auto;
 }
 
 .image-container-small {
   width: 35%;
-  height: auto;
 }
 
 /* Header */
@@ -228,9 +228,10 @@ aside {
   margin-top: 1rem;
 }
 
-#side-content {
+.side-content {
   padding-left: 1rem;
   line-height: 1.5rem;
+  width: 65%;
 }
 
 .side h3 {
@@ -239,7 +240,6 @@ aside {
 
 .heading-support, .read {
   font-size: 1.15rem;
-  padding-bottom: .5rem;
 }
 
 .read {
@@ -249,6 +249,37 @@ aside {
 .read:hover {
   text-decoration: underline;
   transition: text-decoration 150ms linear 750ms;
+}
+
+@media only screen and (max-width:480px) {
+  #information-content {
+    display: none;
+  }
+
+  aside {
+    width: 100%;
+  }
+
+  #orientation {
+    margin: 0;
+  }
+
+  .side {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .image-container-small {
+    width: 100%;
+  }
+
+.side-content {
+  padding: 2rem 0 2rem 1rem;
+}
+
+  #campus {
+    background-color: #EDFAFD;
+  }
 }
 
 /* Program Path Section */
