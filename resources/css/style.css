@@ -273,9 +273,10 @@ aside {
     width: 100%;
   }
 
-.side-content {
-  padding: 2rem 0 2rem 1rem;
-}
+  .side-content {
+    padding: 2rem 0 2rem 1rem;
+    width: 100%;
+  }
 
   #campus {
     background-color: #EDFAFD;
@@ -323,6 +324,34 @@ aside {
 
 .course-description {
   line-height: 1.35rem;
+}
+
+@media only screen and (max-width:480px) {
+  .program img, .program p, .program span {
+    display: none;
+    margin: 0;
+    padding: 0
+  }
+
+  #program-content h2 {
+    margin: 2rem 0 1rem 0;
+  }
+
+  .program-container {
+    display: flex;
+    margin: 0 0 1.5rem 0;
+  }
+
+  .program {
+    width: 100%;
+    margin: 0 1rem .5rem 1rem;
+  }
+
+  .program-text {
+    padding: 1rem 0 1.5rem 1rem;
+  }
+
+
 }
 
 /* Thesis Content */
