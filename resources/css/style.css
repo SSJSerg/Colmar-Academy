@@ -4,6 +4,11 @@ body {
   color: black;
 }
 
+main {
+  background-color: #EDFAFD;
+  padding-top: 4rem;
+}
+
 h1, h2, h3, h4 {
   font-family: Oswald, sans-serif;
 }
@@ -27,7 +32,7 @@ span, p {
 }
 
 .background-color {
-  background-color: #AED9DA;
+  background-color:#AED9DA;
 }
 
 .accent-color {
@@ -38,11 +43,6 @@ span, p {
   display: flex;
 }
 
-.position {
-  position: sticky;
-  top: 4rem;
-}
-
 /* Image Containers */
 
 .image-container-large img {
@@ -50,7 +50,7 @@ span, p {
 }
 
 .image-container-large {
-  max-width: 60%;
+  width: 60%;
   margin: 2rem 1.5rem;
 }
 
@@ -59,7 +59,7 @@ span, p {
 }
 
 .image-container-small {
-  max-width: 35%;
+  width: 35%;
   height: auto;
 }
 
@@ -71,6 +71,9 @@ nav {
   align-items: center;
   height: 4rem;
   position: fixed;
+  z-index: 1;
+  background-color: white;
+  border-bottom: 2px solid black;
 }
 
 #colmar {
@@ -88,7 +91,7 @@ nav {
 .menu {
   text-align: right;
   flex-grow: 1;
-  padding-right: 1.5rem;
+  padding-right: 1rem;
   font-size: 1.25rem;
 }
 
@@ -97,8 +100,15 @@ nav {
 }
 
 .menu span {
-  padding-left: 1rem;
+  padding: .55rem .4375rem;
+  border-radius: 5%;
 }
+
+.menu span:hover {
+  background-color: #AED9DA;
+  transition: background-color 150ms ease-in 50ms;
+}
+
 
 /* Banner */
 
@@ -111,12 +121,8 @@ nav {
   justify-content: center;
 }
 
-#start-here {
-  background-color: #2A93D5;
-  padding: .5rem 0;
-  width: 75%;
-  text-align: center;
-  font-size: 1.75rem;
+#banner-heading {
+  line-height: 3.75rem;
 }
 
 #banner-content {
@@ -132,6 +138,19 @@ nav {
   padding-bottom: 3.75rem;
 }
 
+#start-here {
+  background-color: #2A93D5;
+  padding: .5rem 0;
+  width: 75%;
+  text-align: center;
+  font-size: 1.75rem;
+}
+
+#start-here:hover {
+  box-shadow: inset 2px 2px 2px #135589;
+  transition: box-shadow 50ms linear 50ms;
+}
+
 /* Information */
 
 .support p {
@@ -145,7 +164,7 @@ aside {
 }
 
 #border {
-  border-left: .5px solid lightgray;
+  border-left: .5px solid #AED9DA;
 }
 
 #orientation {
@@ -175,6 +194,12 @@ aside {
   color: blue;
 }
 
+.read:hover {
+  text-decoration: underline;
+  transition: text-decoration 150ms linear 750ms;
+}
+
+
 /* Program Path Section */
 #learn h2 {
   margin: 2rem 0;
@@ -188,22 +213,22 @@ aside {
 .program-container {
   flex-flow: row wrap;
   justify-content: center;
-  margin-bottom: 2rem;
+  margin: 0 4.5rem 2rem 4.5rem;
 }
 
 .program img {
   width: 100%;
-  height: auto;
 }
 
 .program {
   background-color: #EDFAFD;
   width: 25%;
   margin: .5rem;
+  flex-grow: 1;
 }
 
 .program-text {
-  padding: 1rem;
+  padding: 1rem 0 1rem 1;
 }
 
 .course {
@@ -276,12 +301,23 @@ footer {
   border-top: 1px solid grey;
 }
 
-footer span {
-  font-size: .75rem;
+footer div {
   margin: 1rem 1.5rem 2rem 1.5rem;
 }
 
-#term {
-  text-align: right;
-  flex-grow: 1
+footer span {
+  font-size: .75rem;
+}
+
+#copy {
+  flex-grow: 1;
+}
+
+.term-privacy {
+  padding: 0 .1rem;
+}
+
+.term-privacy:hover {
+  text-decoration: underline;
+  transition: text-decoration 150ms linear 750ms;
 }
