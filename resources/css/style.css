@@ -73,7 +73,6 @@ nav {
   position: fixed;
   z-index: 1;
   background-color: white;
-  border-bottom: 2px solid black;
 }
 
 .title {
@@ -113,6 +112,23 @@ nav {
 .menu span:hover {
   background-color: #AED9DA;
   transition: background-color 150ms ease-in 50ms;
+}
+
+.nav-mobile {
+  display: none;
+}
+
+@media only screen and (max-width:480px) {
+  .title, .menu {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
 
 /* Banner */
