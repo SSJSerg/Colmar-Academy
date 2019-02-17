@@ -141,9 +141,15 @@ nav {
   padding-top: 4rem;
 }
 
+.banner-space {
+  width: 40%
+}
+
 #banner-content {
   flex-direction: column;
   justify-content: center;
+  flex: 1;
+  padding-right: 1.5rem;
 }
 
 #banner-heading {
@@ -162,13 +168,16 @@ nav {
 #start-here {
   border: 0;
      line-height: 2.5;
-     padding: 0 20px;
      font-size: 1rem;
      text-align: center;
      background-color: #2A93D5;
      border-radius: 10px;
      width: 100%;
      align-items: center;
+}
+
+.button {
+  margin-right: 15%;
 }
 
 #start-here:hover {
@@ -181,6 +190,10 @@ nav {
 @media only screen and (max-width:480px) {
   #banner {
     flex-direction: column;
+  }
+
+  .banner-space {
+    width: inherit;
   }
 
   #learn-picture {
@@ -202,6 +215,10 @@ nav {
 
   #start-here {
     margin-bottom: 2rem;
+  }
+
+  .button {
+    margin: 0;
   }
 }
 
