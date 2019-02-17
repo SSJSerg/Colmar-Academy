@@ -407,6 +407,21 @@ aside {
   line-height: 1.25rem;
 }
 
+@media only screen and (max-width:480px) {
+  #thesis-side, .video-container h4, .video-container p {
+    display: none;
+  }
+
+  #thesis h2 {
+    margin: 2rem 0 1rem 0;
+  }
+
+  .video-container {
+    width: 100%;
+    padding: 0;
+  }
+}
+
 /* Footer */
 
 footer {
