@@ -200,7 +200,7 @@ nav {
   }
 
   #banner-content {
-    padding: 0 1rem 0 1rem;
+    padding: 0 1rem 2rem 1rem;
   }
 
   #banner-heading {
@@ -299,8 +299,16 @@ aside {
     width: 100%;
   }
 
+  .heading-suport {
+    padding-bottom: .5rem;
+  }
+
   #campus {
     background-color: #EDFAFD;
+  }
+
+  #guest {
+    padding-bottom: .5rem;
   }
 }
 
