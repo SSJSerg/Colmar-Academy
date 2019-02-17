@@ -123,6 +123,10 @@ nav {
     display: none;
   }
 
+  header {
+    max-width: 480px;
+  }
+
   .nav-mobile {
     display: flex;
     width: 100%;
@@ -148,7 +152,7 @@ nav {
 }
 
 #banner-support {
-  word-break: break-word;
+  word-break: break-all;
   font-size: 1.5rem;
 }
 
@@ -350,8 +354,6 @@ aside {
   .program-text {
     padding: 1rem 0 1.5rem 1rem;
   }
-
-
 }
 
 /* Thesis Content */
@@ -418,7 +420,7 @@ aside {
 
   .video-container {
     width: 100%;
-    padding: 0;
+    padding: 0 0 1.5rem 0;
   }
 }
 
@@ -447,4 +449,14 @@ footer span {
 .term-privacy:hover {
   text-decoration: underline;
   transition: text-decoration 150ms linear 750ms;
+}
+
+@media only screen and (max-width:480px) {
+  .term-privacy {
+    display: none;
+  }
+
+  footer div {
+    margin: 1rem;
+  }
 }
