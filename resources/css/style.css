@@ -144,7 +144,6 @@ nav {
 #banner-content {
   flex-direction: column;
   justify-content: center;
-  width: 40%;
 }
 
 #banner-heading {
@@ -168,7 +167,7 @@ nav {
      text-align: center;
      background-color: #2A93D5;
      border-radius: 10px;
-     width: 35%;
+     width: 100%;
      align-items: center;
 }
 
@@ -190,8 +189,7 @@ nav {
   }
 
   #banner-content {
-    padding: 0 0 0 1rem;
-    width: 100%;
+    padding: 0 1rem 0 1rem;
   }
 
   #banner-heading {
@@ -209,7 +207,7 @@ nav {
 
 /* Information */
 
-.support p {
+.support h5 {
   margin-top: 1.5rem;
   margin-bottom: 2rem;
   line-height: 1.35rem;
@@ -244,6 +242,7 @@ aside {
 
 .heading-support, .read {
   font-size: 1.15rem;
+  padding-bottom: .5rem;
 }
 
 .read {
@@ -362,7 +361,7 @@ aside {
 }
 
 #thesis h2 {
-  margin: 1rem 0;
+  margin: 2rem 0;
   text-align: center;
 }
 
