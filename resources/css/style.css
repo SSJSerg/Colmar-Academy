@@ -318,6 +318,11 @@ aside {
   #guest {
     padding-bottom: .5rem;
   }
+
+  .read-mobile {
+    color:  #135589;
+    font-weight: bold;
+  }
 }
 
 /* Program Path Section */
