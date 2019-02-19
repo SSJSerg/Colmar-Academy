@@ -35,7 +35,7 @@ span, p, h5 {
 }
 
 .accent-color {
-  background-color: #2A93D5;
+  background-color: #0D3C5E;
 }
 
 .flex {
@@ -171,9 +171,10 @@ nav {
   border: 0;
      line-height: 2.5;
      font-size: 1rem;
-     background-color: #2A93D5;
+     background-color: #0D3C5E;
      border-radius: 10px;
      width: 100%;
+     color: #AED9DA;
 }
 
 .button {
@@ -269,6 +270,10 @@ aside {
   padding-bottom: .5rem;
 }
 
+#campus {
+  color: #AED9DA;
+}
+
 .heading-support, .read {
   font-size: 1.15rem;
   padding-bottom: .5rem;
@@ -326,6 +331,7 @@ aside {
 
   #campus {
     background-color: #EDFAFD;
+    color: black;
   }
 
   #guest {
@@ -455,6 +461,10 @@ video {
 .side-text {
   width: 30%;
   flex-grow: 1;
+}
+
+#fisma {
+  color: #AED9DA;
 }
 
 .side-text h3 {
