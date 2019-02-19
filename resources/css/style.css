@@ -189,10 +189,10 @@ nav {
 }
 
 #start-here:active {
-  box-shadow: inset 2px 2px 2px #135589;
+  box-shadow: inset 3px 3px 2px #AED9DA;
   transition: box-shadow 50ms linear 50ms;
-  text-shadow: 1px 1px 1px #135589;
-  transition: text-shadow 20ms linear 20ms;
+  font-weight: bold;
+  transition: font-weight 20ms linear 20ms;
 }
 
 /* Media Queries */
