@@ -118,6 +118,8 @@ nav {
   display: none;
 }
 
+/* Media Queries */
+
 @media only screen and (max-width:480px) {
   .title, .menu {
     display: none;
@@ -179,11 +181,20 @@ nav {
 }
 
 #start-here:hover {
+  box-shadow: 2px 2px 2px #135589;
+  transition: box-shadow 50ms linear 50ms;
+  text-shadow: 1px 1px 1px #135589;
+  transition: text-shadow 20ms linear 20ms;
+}
+
+#start-here:active {
   box-shadow: inset 2px 2px 2px #135589;
   transition: box-shadow 50ms linear 50ms;
   text-shadow: 1px 1px 1px #135589;
   transition: text-shadow 20ms linear 20ms;
 }
+
+/* Media Queries */
 
 @media only screen and (max-width:480px) {
   #banner {
@@ -275,10 +286,12 @@ aside {
   font-size: 1rem;
 }
 
-.read:hover {
+.read:hover, .read-accent:hover {
   text-decoration: underline;
   transition: text-decoration 150ms linear 750ms;
 }
+
+/* Media Queries */
 
 @media only screen and (max-width:480px) {
   #information-content {
@@ -368,6 +381,8 @@ aside {
   line-height: 1.35rem;
 }
 
+/* Media Queries */
+
 @media only screen and (max-width:480px) {
   .program img, .program p, .program span {
     display: none;
@@ -451,6 +466,8 @@ video {
   line-height: 1.25rem;
 }
 
+/* Media Queries */
+
 @media only screen and (max-width:480px) {
   #thesis-side, .video-container h4, .video-container p {
     display: none;
@@ -492,6 +509,8 @@ footer span {
   text-decoration: underline;
   transition: text-decoration 150ms linear 750ms;
 }
+
+/* Media Queries */
 
 @media only screen and (max-width:480px) {
   .term-privacy {
