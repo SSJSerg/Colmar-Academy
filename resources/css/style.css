@@ -111,7 +111,7 @@ nav {
 
 .menu span:hover {
   background-color: #AED9DA;
-  transition: background-color 150ms ease-in 50ms;
+  transition: background-color 450ms ease-in 50ms;
 }
 
 .nav-mobile {
@@ -288,7 +288,7 @@ aside {
 
 .read:hover, .read-accent:hover {
   text-decoration: underline;
-  transition: text-decoration 150ms linear 750ms;
+  transition: text-decoration 1s;
 }
 
 /* Media Queries */
